@@ -19,9 +19,9 @@ public class EmployeeTest extends AppCompatActivity {
         name=(EditText) findViewById(R.id.name);
         price=(EditText) findViewById(R.id.price);
         Employee emp = new Employee();
-        emp.setEmpId(76);
-        emp.setName("Shawarma");
-        emp.setSsn("1010");
+        emp.setEmpId(1);
+        emp.setName("Water");
+        emp.setSsn("$1");
         input_id.setText("Номер товара: "+emp.getEmpId());
         name.setText("Наименование товара: "+emp.getName());
         price.setText("Цена товара: "+emp.getSsn());
